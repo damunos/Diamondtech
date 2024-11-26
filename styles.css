@@ -6,6 +6,24 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Logo Styling */
+.logo {
+    position: absolute; /* Allows precise placement */
+    top: 20px; /* Adjust top spacing */
+    left: 20px; /* Adjust left spacing */
+    max-width: 20%; /* Limit width to 20% of the container */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 10; /* Ensure it appears above other elements */
+}
+
+/* Responsive Logo Adjustments */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 40%; /* Allow the logo to scale larger on smaller screens */
+        top: 10px; /* Adjust for smaller screens */
+        left: 10px;
+    }
+}
 
 a {
     color: #ff0000; /* Red links */
