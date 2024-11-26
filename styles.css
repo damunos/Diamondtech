@@ -17,7 +17,7 @@ body {
 }
 
 /* Responsive Logo Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .logo {
         max-width: 40%; /* Allow the logo to scale larger on smaller screens */
         top: 10px; /* Adjust for smaller screens */
