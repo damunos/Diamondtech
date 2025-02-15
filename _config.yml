@@ -1,0 +1,5 @@
+title: Diamond Tech Blog
+description: "Insights, Tips, and Technology News for Small Businesses"
+theme: minima  # Default Jekyll theme, can change later
+permalink: /blog/:title/  # SEO-friendly URLs
+paginate: 5  # Show 5 posts per page
