@@ -4,7 +4,7 @@ title: "The Role of AI in Small Business"
 date: 2025-02-18
 author: "Peter"
 ---
- Small Business Cybersecurity: Protecting Your Business in 2025
+Small Business Cybersecurity: Protecting Your Business in 2025
 In today’s digital world, small businesses are increasingly targeted by cyber threats. Many business owners assume that only large corporations are at risk, but the reality is that 43% of cyberattacks target small businesses. With the rise of AI-driven hacking, phishing scams, and ransomware, cybersecurity is no longer optional—it’s essential.
 
 As a technology consultant and repair technician, I’ve seen firsthand how even minor security gaps can lead to major disruptions. That’s why I want to break down the key cybersecurity threats facing small businesses and, most importantly, how you can protect your company.
