@@ -4,7 +4,7 @@ title: "The Role of AI in Small Business"
 date: 2025-02-15
 author: "Peter"
 ---
-The Role of AI in Small Business: A Repair Technician’s Perspective
+ The Role of AI in Small Business: A Repair Technician’s Perspective
 As a repair technician and IT consultant, I’ve always been fascinated by how technology evolves to solve real-world problems. Over the past year, one of the biggest shifts I’ve seen in small business operations is the rapid adoption of Artificial Intelligence (AI). What was once a buzzword for tech giants is now a practical tool for small businesses looking to streamline operations, improve customer service, and even boost revenue.
 
 AI isn’t about replacing workers—it’s about augmenting what we do, helping us make better decisions, and eliminating repetitive tasks that slow down productivity. In my field, I see first-hand how AI-driven tools are reshaping businesses, from automated troubleshooting to customer relationship management. Let’s take a closer look at how AI is making an impact.
