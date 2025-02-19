@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Role of AI in Small Business"
+title: "Cyber Security for Small Businesses"
 date: 2025-02-18
 author: "Peter"
 ---
