@@ -55,6 +55,15 @@ h1, h2, h3 {
     margin-bottom: 20px;
 }
 
+.hero-actions,
+.private-ai-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
 .btn-primary {
     background-color: #ff0000;
     color: #fff;
@@ -93,6 +102,51 @@ section {
 .service {
     margin: 20px auto;
     max-width: 600px;
+}
+
+#private-ai {
+    background-color: #141414;
+}
+
+.private-ai-plan {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: clamp(20px, 5vw, 40px);
+    border: 1px solid #603333;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    line-height: 1.5;
+}
+
+.private-ai-plan h2 {
+    margin-top: 0;
+}
+
+.private-ai-price {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.private-ai-price strong {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.private-ai-actions {
+    margin-top: 24px;
+}
+
+.private-ai-plan .btn-primary {
+    background-color: #b91c1c;
+}
+
+.private-ai-plan .btn-primary:hover {
+    background-color: #991b1b;
+}
+
+.private-ai-sign-in {
+    color: #ffd1d1;
+    text-decoration: underline;
 }
 
 /* Contact Section */

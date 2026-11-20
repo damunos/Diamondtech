@@ -3,3 +3,8 @@ description: "Insights, Tips, and Technology News for Small Businesses"
 theme: minima  # Default Jekyll theme, can change later
 permalink: /blog/:title/  # SEO-friendly URLs
 paginate: 5  # 
+
+private_ai:
+  # Set both public HTTPS URLs when subscriber access is ready.
+  checkout_url: ""
+  member_portal_url: ""

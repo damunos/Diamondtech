@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +32,10 @@
         <div class="hero-content">
             <h1>Diamond Tech Solutions</h1>
             <p>Empowering your business with innovative IT solutions</p>
-            <a href="#services" class="btn-primary">Our Services</a>
+            <div class="hero-actions">
+                <a href="#services" class="btn-primary">Our Services</a>
+                <a href="#private-ai" class="btn-primary">Private AI</a>
+            </div>
         </div>
     </section>
 
@@ -57,6 +62,25 @@
         <div class="service">
             <h3>Cloud Security</h3>
             <p>Protect your data with secure cloud solutions.</p>
+        </div>
+    </section>
+
+    <section id="private-ai" aria-labelledby="private-ai-heading">
+        <div class="private-ai-plan">
+            <h2 id="private-ai-heading">Diamond Tech Private AI</h2>
+            <p>Chat with a privately hosted AI assistant for writing, brainstorming, and everyday questions.</p>
+            <p class="private-ai-price"><strong>$5.50</strong> / month</p>
+            <p>One monthly subscription includes up to four users.</p>
+            {% assign checkout_scheme = site.private_ai.checkout_url | slice: 0, 8 %}
+            {% assign member_scheme = site.private_ai.member_portal_url | slice: 0, 8 %}
+            {% if checkout_scheme == 'https://' and member_scheme == 'https://' %}
+            <div class="private-ai-actions">
+                <a href="{{ site.private_ai.checkout_url | escape }}" class="btn-primary">Subscribe for $5.50/month</a>
+                <a href="{{ site.private_ai.member_portal_url | escape }}" class="private-ai-sign-in">Member sign in</a>
+            </div>
+            {% else %}
+            <p>Subscriptions are not open yet.</p>
+            {% endif %}
         </div>
     </section>
 
