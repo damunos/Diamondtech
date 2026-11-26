@@ -142,3 +142,17 @@ footer { border-top: 1px solid #38393e; font-size: .9rem; color: #c2c3c7; }
   .header-contact { padding-inline: .6rem; }
   .button { padding-inline: 1rem; }
 }
+
+.service-detail .service-guide { border: 0; margin: 0; padding: 0; }
+.service-guide a { margin: 0; }
+.service-page { padding-block: clamp(2.5rem,5vw,5rem); }
+.service-page article { max-width: 49rem; }
+.service-crumb { margin-bottom: 1.2rem; }
+.service-crumb a, .service-prose a { color: #a11b2b; text-underline-offset: .18rem; }
+.service-page h1 { font-size: clamp(2.8rem,5vw,4.6rem); }
+.service-lead { font-size: 1.2rem; color: var(--muted); }
+.service-prose { margin-top: 2rem; }
+.service-prose h2 { font-size: clamp(1.45rem,2.5vw,2rem); margin-block: 2rem .8rem; }
+.service-prose p + p { margin-block-start: .8rem; }
+.service-prose ul { padding-inline-start: 1.3rem; }
+.service-page .button:not(.primary) { border-color: var(--edge); }

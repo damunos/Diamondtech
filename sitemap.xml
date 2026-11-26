@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ '/' | absolute_url | xml_escape }}</loc></url>
+  <url><loc>{{ '/blog/' | absolute_url | xml_escape }}</loc></url>
+  {% assign services = site.pages | where: "layout", "service" %}
+  {% for item in services %}
+  <url><loc>{{ item.url | absolute_url | xml_escape }}</loc></url>
+  {% endfor %}
+  {% for post in site.posts %}
+  {% unless post.hide_from_index %}
+  <url><loc>{{ post.url | absolute_url | xml_escape }}</loc></url>
+  {% endunless %}
+  {% endfor %}
+</urlset>

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Blog"
+title: "Business Technology Articles"
+description: "Peter Karousis writes about cybersecurity, software choices, and everyday AI tools for small businesses in the Mahoning Valley."
 permalink: /blog/
 ---
 <p><a href="/">Diamond Tech Solutions home</a></p>

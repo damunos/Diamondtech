@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.search_title | escape }} | Diamond Tech Solutions</title>
+  <meta name="description" content="{{ page.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }} | Diamond Tech Solutions">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+  <meta property="og:image" content="{{ '/assets/Images/network-switch.jpg' | absolute_url }}">
+  <link rel="icon" href="/assets/Images/diamond-mark.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G9M6FTP5R7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-G9M6FTP5R7');
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Diamond Tech Solutions home">
+        <img src="/assets/Images/diamond-mark.png" width="160" height="131" alt="">
+        <span class="wordmark">DIAMOND<span>TECH SOLUTIONS</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="/#services">Services</a><a href="/#about">About</a><a href="/#credentials">Credentials</a><a href="/blog/">Blog</a>
+      </nav>
+      <a class="header-contact" href="/#contact">Get in touch</a>
+    </div>
+  </header>
+  <main id="main" class="wrap service-page">
+    <p class="service-crumb"><a href="/#services">Business services</a></p>
+    <article>
+      <h1>{{ page.title | escape }}</h1>
+      <p class="service-lead">{{ page.lead | escape }}</p>
+      <div class="service-prose">{{ content }}</div>
+      <div class="actions"><a class="button primary" href="{{ page.inquiry | escape }}">{{ page.cta | escape }}</a><a class="button" href="tel:+13309806505">Call (330) 980-6505</a></div>
+    </article>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© Diamond Tech Solutions</span><span>Warren, Ohio</span></div></footer>
+</body>
+</html>
