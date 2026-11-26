@@ -1,5 +1,7 @@
 ---
 layout: post
+hide_from_index: true
+canonical_url: https://diamondtech.us/blog/my-first-blog-post/
 title: "The Role of AI in Small Business"
 date: 2025-02-15
 author: "Peter"
